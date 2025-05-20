@@ -29,7 +29,7 @@ Lliureu la conversa amb la IA, el programa python que heu creat i el test que he
   "git clone https://github.com/llmopt/asix1-practica1-alexandru-popi-montsia"
 
 - Entrem dins del directori:
-  "cd asix1-practica1-adamoughriss"
+  "cd asix1-practica1-alexandru-popi-montsia"
 
 - Executem el script:
   "python3 IA.py"
