@@ -22,7 +22,10 @@ Lliureu la conversa amb la IA, el programa python que heu creat i el test que he
 
 # Diferències entre Descarregar el Model i utilitzar l'API
 
-
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 # Posada en marxa del fitxer IA.py
 
