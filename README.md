@@ -43,7 +43,7 @@ Lliureu la conversa amb la IA, el programa python que heu creat i el test que he
 > "The log you provided is a normal Apache startup log, indicating that the server (Apache/2.4.41, running on Ubuntu) has been configured and is resuming normal
 > operations. There are no errors in this log. However, it's worth noting that the date mentioned in the log seems to be from the future (May 20, 2025), which may
 > be a mistake or a placeholder.
-
+> 
 > Normally, session errors, internal server errors, or other issues would be prefaced with the text [error] instead of [notice], as in the case of Apache/2.4.41
 > (Ubuntu) AH00526: Syntax error on line 123 of /etc/apache2/apache2.conf:
 > Invalid command 'Fnord', despite this log line being syntactically correct, it would still be an error if found in an actual configuration file."
@@ -59,3 +59,14 @@ Lliureu la conversa amb la IA, el programa python que heu creat i el test que he
 | **Facilitat d'integració** | Pot requerir més configuració tècnica                  | Fàcil, només cal fer crides a l'API          |
 | **Privadesa de dades**     | Màxima, les dades no surten del dispositiu             | Risc de privadesa si s’envien dades al núvol |
 | **Escalabilitat**          | Limitada al maquinari local                            | Alta, gestionada pel proveïdor del servei    |
+
+# Diferencia entre caracteristiques del sistema depenent d'us de l'IA
+| **Requisits**                     | **Model en Client (Descarregat)**                    | **Importació de l’API (Servei remot)**          |
+| --------------------------------- | ---------------------------------------------------- | ----------------------------------------------- |
+| **CPU**                           | Alta potència: especialment per inferència ràpida    | Pot ser baixa o mitjana                         |
+| **RAM**                           | Mínim 8-16 GB, models grans >32 GB                   | Mínima: només per manejar les peticions         |
+| **Emmagatzematge**                | Espai ampli: fins a 100 GB (depenent del model)      | Mínim: no cal emmagatzemar el model             |
+| **Connexió a Internet**           | Només per descarregar el model inicial o actualitzar | Necessària de manera contínua                   |
+| **Sistema Operatiu**              | Linux recomanat (per compatibilitat amb llibreries)  | Qualsevol (mentre tingui accés a la xarxa)      |
+| **Temps de configuració inicial** | Elevat: instal·lació i posada en marxa del model     | Baix: només cal configurar accés a l’API        |
+| **Manteniment del sistema**       | Requereix actualitzacions manuals                    | Gestionat pel proveïdor                         |
