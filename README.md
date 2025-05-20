@@ -20,7 +20,11 @@ Lliureu la conversa amb la IA, el programa python que heu creat i el test que he
 
 
 
+# Diferències entre Descarregar el Model i utilitzar l'API
 
+
+
+# Posada en marxa del fitxer IA.py
 
 
 
