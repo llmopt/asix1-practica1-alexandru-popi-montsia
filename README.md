@@ -48,19 +48,7 @@ Lliureu la conversa amb la IA, el programa python que heu creat i el test que he
 > (Ubuntu) AH00526: Syntax error on line 123 of /etc/apache2/apache2.conf:
 > Invalid command 'Fnord', despite this log line being syntactically correct, it would still be an error if found in an actual configuration file."
 
-## Diferències entre Descarregar el Model i utilitzar l'API
-| Característica             | **Model en Client (Descarregat)**                      | **Importació de l'API (Servei remot)**       |
-| -------------------------- | ------------------------------------------------------ | -------------------------------------------- |
-| **Accés a Internet**       | No necessari un cop descarregat                        | Necessari per cada petició                   |
-| **Rendiment (latència)**   | Més ràpid, sense connexió externa                      | Pot ser més lent per latència de xarxa       |
-| **Control sobre el model** | Total, es pot modificar, ajustar o entrenar            | Limitat al que ofereix el proveïdor          |
-| **Actualitzacions**        | Manual (cal tornar a descarregar el model actualitzat) | Automàtiques, gestionades pel proveïdor      |
-| **Cost**                   | Cost únic, infraestructura pròpia                      | Cost recurrent (per ús, subscripció)         |
-| **Facilitat d'integració** | Pot requerir més configuració tècnica                  | Fàcil, només cal fer crides a l'API          |
-| **Privadesa de dades**     | Màxima, les dades no surten del dispositiu             | Risc de privadesa si s’envien dades al núvol |
-| **Escalabilitat**          | Limitada al maquinari local                            | Alta, gestionada pel proveïdor del servei    |
-
-# Diferencia entre caracteristiques del sistema depenent d'us de l'IA
+## Diferencia entre caracteristiques descarregant el Model i utilitzant l'API
 | **Requisits**                     | **Model en Client (Descarregat)**                    | **Importació de l’API (Servei remot)**          |
 | --------------------------------- | ---------------------------------------------------- | ----------------------------------------------- |
 | **CPU**                           | Alta potència: especialment per inferència ràpida    | Pot ser baixa o mitjana                         |
