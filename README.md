@@ -1,5 +1,6 @@
 # ASIX_DAW_IA
-Testeig de models d'IA i primeres aplicacions
+Testeig de models d'IA i primeres aplicacions.
+
 
 ## Pregunta-li a una IA com utilitzar el model Mistral-7B-Instruct (o un equivalent) de hugging face per a interpretar logs del Apache web server, realitzant un programa amb python. Realitza el programa i testeja’l.
 
@@ -11,12 +12,11 @@ Lliureu la conversa amb la IA, el programa python que heu creat i el test que he
 
 
 # Explicació de Paraules Claus
-RAG (Retrieval Augmented Generation):
-Fine-Tuned: 
-Temperature: 
+- RAG (Retrieval Augmented Generation): És una tècnica de processament del llenguatge natural (NLP) que combina els punts forts dels models d'intel·ligència artificial basada en recuperació i generativa (IA), aixó permet a la IA recuperar informació rellevant per millorar les seves respostes generades.
 
+- Fine-Tuned: El procés de prendre un model d'aprenentatge automàtic preentrenat i la formació contínua en un conjunt de dades més petit i dirigit.
 
-
+- Temperature: Defineix la previsibilitat de la seva sortida. Les temperatures més altes produeixen resultats més creatius, mentre que les temperatures més baixes produeixen respostes més predictibles.
 
 
 # 🤖 Exemple bàsic d'ús de BlenderBot amb Hugging Face Transformers
