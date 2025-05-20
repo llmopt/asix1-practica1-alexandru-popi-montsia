@@ -19,7 +19,7 @@ Lliureu la conversa amb la IA, el programa python que heu creat i el test que he
 ## Com executar l'API
 - Crear un compte en [HuggingFace](https://huggingface.co/)
 
-- Crear un token
+- Crear un token d'accés:
 ![image](https://github.com/user-attachments/assets/86fff3a8-3312-490d-ae1f-dcb936b42d85)
 
 - Inserim el token dins del script de Python
