@@ -8,3 +8,9 @@ Abans d’executar cap prova assegurat de saber quants recursos hardware utilitz
 Si no es viable usar aquest model, intenteu usar-ne d’altre.
 
 Lliureu la conversa amb la IA, el programa python que heu creat i el test que heu realitzat.
+
+
+# Explicació de Paraules Claus
+RAG (Retrieval Augmented Generation):
+Fine-Tuned: 
+Temperature: 
