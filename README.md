@@ -36,17 +36,17 @@ Lliureu la conversa amb la IA, el programa python que heu creat i el test que he
 
 ## Resultat del test de l'IA
 - Log proporcionat:
-  "[Tue May 20 10:04:31.525155 2025] [mpm_event:notice] [pid 68661:tid 140321180847168] AH00489: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations"
-  "[Tue May 20 10:04:31.525799 2025] [core:notice] [pid 68661:tid 140321180847168] AH00094: Command line: '/usr/sbin/apache2'"
+> "[Tue May 20 10:04:31.525155 2025] [mpm_event:notice] [pid 68661:tid 140321180847168] AH00489: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations"
+> "[Tue May 20 10:04:31.525799 2025] [core:notice] [pid 68661:tid 140321180847168] AH00094: Command line: '/usr/sbin/apache2'"
 
 - Contestació donada per part de l'IA:
-  "The log you provided is a normal Apache startup log, indicating that the server (Apache/2.4.41, running on Ubuntu) has been configured and is resuming normal
-  operations. There are no errors in this log. However, it's worth noting that the date mentioned in the log seems to be from the future (May 20, 2025), which may
-  be a mistake or a placeholder.
+> "The log you provided is a normal Apache startup log, indicating that the server (Apache/2.4.41, running on Ubuntu) has been configured and is resuming normal
+> operations. There are no errors in this log. However, it's worth noting that the date mentioned in the log seems to be from the future (May 20, 2025), which may
+> be a mistake or a placeholder.
 
-  Normally, session errors, internal server errors, or other issues would be prefaced with the text [error] instead of [notice], as in the case of Apache/2.4.41
-  (Ubuntu) AH00526: Syntax error on line 123 of /etc/apache2/apache2.conf:
-  Invalid command 'Fnord', despite this log line being syntactically correct, it would still be an error if found in an actual configuration file."
+> Normally, session errors, internal server errors, or other issues would be prefaced with the text [error] instead of [notice], as in the case of Apache/2.4.41
+> (Ubuntu) AH00526: Syntax error on line 123 of /etc/apache2/apache2.conf:
+> Invalid command 'Fnord', despite this log line being syntactically correct, it would still be an error if found in an actual configuration file."
 
 ## Diferències entre Descarregar el Model i utilitzar l'API
 | Característica             | **Model en Client (Descarregat)**                      | **Importació de l'API (Servei remot)**       |
