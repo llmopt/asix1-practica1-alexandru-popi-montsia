@@ -19,6 +19,25 @@ Lliureu la conversa amb la IA, el programa python que heu creat i el test que he
 - Temperature: Defineix la previsibilitat de la seva sortida. Les temperatures més altes produeixen resultats més creatius, mentre que les temperatures més baixes produeixen respostes més predictibles.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 🤖 Exemple bàsic d'ús de BlenderBot amb Hugging Face Transformers
 
 Aquest exemple mostra com utilitzar el model [`facebook/blenderbot-400M-distill`](https://huggingface.co/facebook/blenderbot-400M-distill) per generar respostes a preguntes o missatges de l'usuari, utilitzant el `pipeline` de Hugging Face.
